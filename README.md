@@ -9,8 +9,8 @@ Stylegan2 를 이용해 고화질 반사실화 및 Webtoon / anime 스타일 캐
 새로운 동양적이고 예쁜 고화질 캐릭터 생성도 잘 하지만 사람 얼굴 사진을  project 후 나온 latent vectors 를 이용해 이를 새로운 훈련된 모델로 generate 하여 photo face to toon/anime face 로 변환하였습니다.    
 아직 미숙한 점도 있지만 단순 생성, 변환만이 아니고 latent vectors 를 이용하여 얼굴 움직이기, 웃기, 화내기 등 표정 등도 변경 생성 가능하였습니다.  
 
-이후에는 반대로 webtoon / anime 캐릭터 이미지를 사실적 photo로 변경하는 것과 얼굴뿐만 아니라 전체 몸을 생성, webtoon / anime 전체 화면을 생성해 보는 것을 해 보려 합니다. 시간이 되는대로...  
-더 나아가서는 DALL-E, CLIP 를 이용하거나 이런 방식을 이용해 글을 통해  toon/anime 를 생성하는 것을 진행해보고 싶습니다. 
+이후에는 반대로 webtoon / anime 캐릭터 이미지를 사실적 photo로 변경하는 것과 얼굴뿐만 아니라 전체 몸을 생성, webtoon / anime 전체 화면을 생성해 보는 것을 해 보려 합니다. 시간이 되는대로...   
+더 나아가서는 DALL-E, CLIP 를 이용하거나 이런 방식을 이용해 글을 통해  toon/anime 를 생성하는 것을 진행해보고 싶습니다.  
 웹툰/애니메이션을 좋아하나 그림 솜씨는 없어도 
 AI를 이용해서 원하는 캐릭터나 toon/anime 을 만들고 이를 움직이고 말이나 글을 통해서 만들수 있지 않을까. 말로 AI 에게 지시해서 만들어가는 tonn/anime 을 상상해 봅니다.
 
