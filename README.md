@@ -23,21 +23,12 @@ AI를 이용해서 원하는 캐릭터나 toon/anime 을 만들고 이를 움직
 ## Transfer Korea Star Photos to toon Images 
 ![Toonify compare image](./docs/toonify-k-star.png)
    
+## Edit Face 1(Latent direction move) 
+![Toonify Latent direction](./docs/11-movie-1.gif)
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="./docs/mov.jpg">
-    <source src="./docs/11-movie-1.mp4" type="video/mp4">
-  </video>
-</figure>   
-
+## Edit Face 2(Latent direction move) 
+![Toonify Latent direction](./docs/11-movie-2.gif)
    
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="./docs/mov.jpg">
-    <source src="./docs/11-movie-2.mp4" type="video/mp4">
-  </video>
-</figure>   
-
 
 ----------------------
 
