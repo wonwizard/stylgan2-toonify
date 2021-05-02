@@ -1,7 +1,7 @@
 ## StyleGAN2 Webtoon / Anime Style Toonify 
 
-Korea Webtoon or Japanese Anime Character 
-Stylegan2 base high Quality 1024x1024 / 512x512  Generate and Transfer 
+Korea Webtoon or Japanese Anime Character   
+Stylegan2 base high Quality 1024x1024 / 512x512  Generate and Transfer  
 
 Stylegan2 를 이용해 고화질 반사실화 및 Webtoon / anime 스타일 캐릭터 생성 및 변환을 시도해 보았고 몇번의 시행착오 끝에 아래와 같이 만들 수 있었습니다. 
 사람 얼굴 사진 Pretrained Model 에서 webtoon / anime 이미지 4백장정도로 Transfer Learning 과 Network blending 을 이용하였습니다.  
@@ -14,13 +14,13 @@ Stylegan2 를 이용해 고화질 반사실화 및 Webtoon / anime 스타일 캐
 웹툰/애니메이션을 좋아하나 그림 솜씨는 없어도 
 AI를 이용해서 원하는 캐릭터나 toon/anime 을 만들고 이를 움직이고 말이나 글을 통해서 만들수 있지 않을까. 말로 AI 에게 지시해서 만들어가는 tonn/anime 을 상상해 봅니다.
 
-Compare to Others
+## Compare to Others
 ![Toonify compare image](./docs/toonify-comapre.png)
 
-Generate toon images 
+## Generate toon images 
 ![Toonify compare image](./docs/toonify-generate.png)
 
-Transfer Korea Star Photos to toon Images 
+## Transfer Korea Star Photos to toon Images 
 ![Toonify compare image](./docs/toonify-k-star.png)
 
 ----------------------
@@ -67,7 +67,7 @@ Drawing Toon
 python toonify_lnw.py --image_dir=data_project_gen --filename=_toon2.jpg --blendednet="pretrained_networks/wonwizard-bl-anistar-s120r128.pkl"
 ```
 
-Based on nvidia StyleGAN2. 
-이것들은 개인적으로만 사용가능하며 허가없이 대외적으로 사용할 수 없음.
-These are for personal use only and cannot be used externally without my permission.
+Based on nvidia StyleGAN2.   
+이것들은 개인적으로만 사용가능하며 허가없이 대외적으로 사용할 수 없음.   
+These are for personal use only and cannot be used externally without my permission.   
 
