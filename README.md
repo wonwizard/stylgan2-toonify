@@ -92,6 +92,6 @@ python toonify_lnw.py --image_dir=data_project_gen --filename=_toon2.jpg --blend
 ```
 
 Based on nvidia StyleGAN2.   
-이것들은 개인적으로만 사용가능하며 허가없이 대외적으로 사용할 수 없음.   
+개인적으로만 사용가능하며 허가없이 대외적으로 사용할 수 없음.   
 These are for personal use only and cannot be used externally without my permission.   
 
