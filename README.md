@@ -3,6 +3,7 @@
 Korea Webtoon or Japanese Anime Character   
 Stylegan2 base high Quality 1024x1024 / 512x512  Generate and Transfer  
 
+Korean language
 Stylegan2 를 이용해 고화질 반사실화 및 Webtoon / anime 스타일 캐릭터 생성 및 변환을 시도해 보았고 몇번의 시행착오 끝에 아래와 같이 만들 수 있었습니다.  
 사람 얼굴 사진 Pretrained Model 에서 webtoon / anime 이미지 4백장정도로 Transfer Learning 과 Network blending 을 이용하였습니다.  
 기존에 나온 것들은 서양 카툰 디즈니적이거나 반사실화적이지 않거나 동양적인 예쁜 케릭터가 잘 나오지 않아서 사실화같으면서 동양적 예쁘고 멋진 webtoon / anime 캐릭터가 나오는데 목적을 두었습니다.  
@@ -13,6 +14,22 @@ Stylegan2 를 이용해 고화질 반사실화 및 Webtoon / anime 스타일 캐
 더 나아가서는 DALL-E, CLIP 를 이용하거나 이런 방식을 이용해 글을 통해  toon/anime 를 생성하는 것을 진행해보고 싶습니다.  
 웹툰/애니메이션을 좋아하나 그림 솜씨는 없어도 
 AI를 이용해서 원하는 캐릭터나 toon/anime 을 만들고 이를 움직이고 말이나 글을 통해서 만들수 있지 않을까. 말로 AI 에게 지시해서 만들어가는 tonn/anime 을 상상해 봅니다.
+
+---------
+
+
+English Language  
+I tried creating and converting high-definition reflections and Webtoon/anime style characters using Stylegan2, and after several trials and errors, I was able to create it as follows.    
+Transfer learning and network blending were used with about 400 webtoon / anime images with the human face photo Pretrained Model.    
+The existing ones are Western Cartoon Disney, not reflective, or Asian pretty characters aren't well out, so the purpose is to come up with Asian pretty and cool webtoon/anime character.    
+I am good at creating new Asian and pretty high-quality characters, but I used latent vectors that came out after projecting a human face photo and generated it as a new trained model and converted it to photo face to toon/anime face.    
+Although there are still some inexperienced things, it was possible to change expressions such as facial movements, laughs, and anger using latent vectors as well as simple creation and transformation.    
+    
+Afterwards, I will try to change the webtoon / anime character image to a realistic photo, create not only the face but also the entire body, and create the webtoon / anime full screen. As time comes...    
+Furthermore, I would like to proceed with creating toon/anime through text writing using DALL-E, CLIP, or using this method.    
+I like webtoon/animation, but I don’t have any drawing skills.    
+Wouldn't it be possible to create a character or toon/anime you want using AI, move it, and create it through words or writings? I imagine a toon/anime created by instructing AI in words.    
+
 
 ## Compare to Others
 ![Toonify compare image](./docs/toonify-comapre.png)
