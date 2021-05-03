@@ -3,7 +3,7 @@
 Korea Webtoon or Japanese Anime Character   
 Stylegan2 base high Quality 1024x1024 / 512x512  Generate and Transfer  
 
-Korean language
+Korean language    
 Stylegan2 를 이용해 고화질 반사실화 및 Webtoon / anime 스타일 캐릭터 생성 및 변환을 시도해 보았고 몇번의 시행착오 끝에 아래와 같이 만들 수 있었습니다.  
 사람 얼굴 사진 Pretrained Model 에서 webtoon / anime 이미지 4백장정도로 Transfer Learning 과 Network blending 을 이용하였습니다.  
 기존에 나온 것들은 서양 카툰 디즈니적이거나 반사실화적이지 않거나 동양적인 예쁜 케릭터가 잘 나오지 않아서 사실화같으면서 동양적 예쁘고 멋진 webtoon / anime 캐릭터가 나오는데 목적을 두었습니다.  
