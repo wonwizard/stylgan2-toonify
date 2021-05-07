@@ -68,8 +68,8 @@ python align_images.py data_test data_img_aligned
 
 It will generate *.npy files and projected_image files in "data_project_gen" directory.
 Make "pretrained_networks" directory.
-Download pretrain network "https://drive.google.com/u/0/uc?id=1-04v78_pI59M0IvhcKxsm3YhK2-plnbj&export=download" and save in "pretrained_networks" directory.
-Try to change --num-steps 1000 or 500 or 700 or 1300, 1500 
+Download pretrain network "https://drive.google.com/u/0/uc?id=1-04v78_pI59M0IvhcKxsm3YhK2-plnbj&export=download" and save in "pretrained_networks" directory.   
+Try to change --num-steps 1000 or 500 or 700 or 1300, 1500 ...  
 
 ```.bash
 python project_images.py data_img_aligned data_project_gen --num-steps=1000 --network-pkl="pretrained_networks/generator_star-stylegan2-config-f.pkl" --tmp-dir="./tmp"
