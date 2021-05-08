@@ -1,7 +1,6 @@
 # from https://github.com/justinpinkney/stylegan2
 """Multi-resolution input data pipeline."""
 
-
 import glob
 import os
 
