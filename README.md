@@ -69,7 +69,7 @@ python align_images.py data_test data_img_aligned
 It will generate *.npy files and projected_image files in "data_project_gen" directory.
 Make "pretrained_networks" directory.
 Download pretrain network "https://drive.google.com/u/0/uc?id=1-04v78_pI59M0IvhcKxsm3YhK2-plnbj&export=download" and save in "pretrained_networks" directory.   
-Try to change --num-steps 1000 or 500 or 700 or 1300, 1500 ...  
+Try to change --num-steps 500 or 700 or 1300, 1500, 2000 ... 
 
 ```.bash
 python project_images.py data_img_aligned data_project_gen --num-steps=1000 --network-pkl="pretrained_networks/generator_star-stylegan2-config-f.pkl" --tmp-dir="./tmp"
@@ -78,9 +78,10 @@ python project_images.py data_img_aligned data_project_gen --num-steps=1000 --ne
 3) toonify
 
 It will generate toonified image files in "data_project_gen" directory and It will add "_toon" to filename.
-Download pretrain network "https://drive.google.com/file/d/1ENBelwQO-_HWFJk0cBzFvi86wPuYwxSz/view?usp=sharing" and save in "pretrained_networks" directory.
-Download pretrain network "https://drive.google.com/file/d/1AO42jOsgAdWC1L4lgZzk2-FarniPeilp/view?usp=sharing" and save in "pretrained_networks" directory.
-* send email won.wizard@gmail.com to download permission. 
+
+Semi-realistic Toon Download pretrain network "https://drive.google.com/file/d/1mmMqjS_8P23KthbsUxQRjTfiFQDa6met/view?usp=sharing" and save in "pretrained_networks" directory.
+Drawing Toon Download pretrain network "https://drive.google.com/file/d/1Xh2lQDcQXrYX7Zug4_95q8_9SR6lVwct/view?usp=sharing" and save in "pretrained_networks" directory.
+* if you need, ask for download permission. These are for personal use only and cannot be used externally without permission.
 
 Semi-realistic Toon
 ```.bash
